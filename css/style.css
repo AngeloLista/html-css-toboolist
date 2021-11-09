@@ -18,9 +18,11 @@ body {
     border-radius: 10px;
 }
 
-.container {
+.border_top {
     border-top: 3px solid #f6f8f9;
-    margin: auto;
+}
+
+.container {
     width: 95%;
 }
 /* Commandbar Buttons */
