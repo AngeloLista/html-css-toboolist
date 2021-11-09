@@ -47,65 +47,41 @@ body {
 
 /* Task Labels */
 
-.a_lightblue {
+
+.a_label {
     font-size: 13px;
     margin: 5px 0;
     display: inline-block;
     padding: 5px 5px;
     text-decoration: none;
+    border-radius: 15px;
+}
+
+.lightblue {
     background-color: #45abea;
-    border-radius: 15px;
 }
 
-.a_violet {
-    font-size: 13px;
-    margin: 5px 0;
-    display: inline-block;
-    padding: 5px 5px;
-    text-decoration: none;
+
+.violet {
     background-color: violet;
-    border-radius: 15px;
 }
 
-.a_orange {
-    font-size: 13px;
-    margin: 5px 0;
-    display: inline-block;
-    padding: 5px 5px;
-    text-decoration: none;
+
+.orange {
     background-color: orange;
-    border-radius: 15px;
 }
 
 
-.a_green {
-    font-size: 13px;
-    margin: 5px 0;
-    display: inline-block;
-    padding: 5px 5px;
-    text-decoration: none;
+.green {
     background-color: #64c0a9;
-    border-radius: 15px;
 }
 
-.a_lightgreen {
-    font-size: 13px;
-    margin: 5px 0;
-    display: inline-block;
-    padding: 5px 5px;
-    text-decoration: none;
+.lightgreen {
     background-color: #b0c926;
-    border-radius: 15px;    
 }
 
-.a_purple {
-    font-size: 13px;
-    margin: 5px 0;
-    display: inline-block;
-    padding: 5px 5px;
-    text-decoration: none;
+.purple {
     background-color: rgb(163, 1, 163);
-    border-radius: 15px;    
 }
 
 
