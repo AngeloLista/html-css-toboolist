@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 
@@ -9,23 +10,62 @@ body {
 
 /* Utilities */
 .container {
-    margin: 0 auto;
+    background-color: white;
+    margin: 30px auto;
     width: 1080px;
+    padding: 5px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
+.a_blue {
+    margin: 5px 0;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+
+.a_white {
+    margin: 5px 0;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.white_text {
+    color: white;
+}
+
+
+.gray_text {
+    color: gray;
+}
 
 /* Header */
 #main_header {
     background-color: white;
+    padding: 10px;
 }
 
 #logo {
     height: 50px;
-    padding: 15px;
+    padding-left: 10px;
     vertical-align: middle;
 }
 
 #logo_title {
     margin: 0;
     display: inline;
+    vertical-align: middle;
+}
+
+/* Main */
+
+#command_bar {
+    background-color: white;
 }
