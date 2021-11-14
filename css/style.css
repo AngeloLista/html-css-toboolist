@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -10,7 +11,12 @@ body {
 }
 
 /* Utilities */
-.main_container {
+
+ul {
+    list-style-type: none;
+}
+
+.container {
     background-color: white;
     margin: 30px auto;
     width: 50%;
@@ -22,9 +28,6 @@ body {
     border-top: 3px solid #f6f8f9;
 }
 
-.container {
-    width: 95%;
-}
 /* Commandbar Buttons */
 .a_blue {
     margin: 5px 0;
@@ -115,9 +118,8 @@ body {
 /* Main */
 
 #command_bar {
-    padding-bottom: 10px;
-    background-color: white;
-    padding: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #00aaff;
 }
 
 hr {
@@ -132,4 +134,25 @@ h3 {
 
 #task_list {
     padding: 19px;
+}
+
+.task_status {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 9px;
+}
+
+.done {
+    color: green;
+    border-color: currentColor;
+}
+
+.undone {
+    color: red;
+    border-color: currentColor;
 }
